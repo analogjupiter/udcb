@@ -1,0 +1,21 @@
+{
+  "name": "udcb/udcb",
+  "description": "Universal D Compiler Bootstrapper",
+
+  "license": "BSL-1.0",
+  "authors": [{"name": "Elias Batek"}],
+
+  "config": {
+    "vendor-dir": "lib/udcb/vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Udcb\\Udcb\\": "lib/udcb/app"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.2",
+    "php-di/php-di": "^7.0"
+  }
+}
