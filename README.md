@@ -1,12 +1,5 @@
 # Universal D Compiler Bootstrapper
 
-## Requirements
+## Abandoned
 
-- git
-- PHP 8.2
-
-## Setup
-
-```sh
-composer install
-```
+→ Check out **[dlang-dockerized](https://github.com/dlang-dockerized/packaging)** instead.
